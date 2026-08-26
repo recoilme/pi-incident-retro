@@ -1,0 +1,10 @@
+{
+  "name": "pi-incident-retro",
+  "version": "0.1.0",
+  "description": "Incident retrospectives for the pi coding agent: triage user dissatisfaction, then reflect and propose systemic fixes",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "skills": ["./skills"]
+  }
+}
