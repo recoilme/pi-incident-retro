@@ -26,3 +26,11 @@ pi install ./pi-incident-retro
 
 The skill ships with eval test cases in `skills/incident-retro/evals/`.
 Run them through the `skill-creator` skill's evaluation cycle.
+
+## Companion configuration (optional)
+
+The skill is designed to work together with our global agent configuration:
+[recoilme/pi-agents-md](https://github.com/recoilme/pi-agents-md) — its rules
+(honesty, ask-before-destructive-actions, restating ambiguous requests) are
+what retrospectives most often end up strengthening. Installing it is
+optional but recommended:
